@@ -32,17 +32,25 @@ FONTS
 
 @font-face {
     font-family: 'fiolex girl';
-    src: url('../fonts/FiolexGirlVH.ttf') format('truetype');
+    src: url('../fonts/FiolexGirlVH.eot');
+    src: url('../fonts/FiolexGirlVH.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiolexGirlVH.woff') format('woff'),
+    url('../fonts/FiolexGirlVH.ttf') format('truetype'),
+    url('../fonts/FiolexGirlVH.svg#WickedGrit') format('svg');
 }
 
 @font-face {
     font-family: 'UVF Mishka';
-    src: url('../fonts/UVF Mishka.ttf') format('truetype');
+    src: url('../fonts/UVF Mishka.ttf') format('truetype'),
+    url('../fonts/UVF Mishka.woff') format('woff'),
+    url('../fonts/UVF Mishka.svg#UVF Mishka') format('svg');
 }
 
 @font-face {
     font-family: 'VNF-Intro Inline';
-    src: url('../fonts/vnf-intro-inline.ttf') format('truetype');
+    src: url('../fonts/vnf-intro-inline.ttf') format('truetype'),
+    url('../fonts/vnf-intro-inline.woff') format('woff'),
+    url('../fonts/vnf-intro-inline.svg#VNF-Intro Inline') format('svg');
 }
 
 /****************************************************************************
@@ -153,10 +161,8 @@ h3.folex { font: 900 45px 'fiolex girl', sans-serif;}
 .our-team figure .overlay .social-icon a { width: 37px; height: 37px; display: inline-block; vertical-align: middle; }
 
 figure .overlay .social-icon a.in { background: url("../images/in.png") no-repeat; }
-figure .overlay .social-icon a.dribl { background: url("../images/dribl.png") no-repeat; background-position: 0px 0px; }
 figure .overlay .social-icon a.twtr { background: url("../images/twtr.png") no-repeat; background-position: 0px 0px; }
 figure .overlay .social-icon a.fb { background: url("../images/fb.png") no-repeat; background-position: 0px 0px; }
-figure .overlay .social-icon a.be { background: url("../images/be.png") no-repeat; background-position: 0px 0px; }
 figure { margin-left: auto; margin-right: auto; }
 .our-team figure {width: 170px; height: 170px; border-radius: 50%; margin-bottom: 5px; position: relative; overflow: hidden; margin: 5px; border: 5px solid white;}
 .our-team figure:hover { border: 3px solid rgba(235,191,13,0.8); }
@@ -363,7 +369,7 @@ cite { color: #ffc81f; font-size: 18px; float: right; }
 /****************************************************************************
 	*-*-* CONTACT -*-*
 ****************************************************************************/
-.contact-wrap { text-align: center; margin-bottom: 50px;padding-top: 50px;}
+.contact-wrap { text-align: center; padding-top: 50px; margin-top:50px;}
 .contact-wrap h2 {  display: inline-block; margin-bottom: 52px;  }
 .contact-wrap .map {display: inline-block; margin-right: 30px; position: relative;}
 #map_canvas {width: 700px; height: 454px;}
@@ -400,8 +406,6 @@ footer .social_icon a.facebook { background: url("../images/facebook.png") no-re
 footer .social_icon a.google { background: url("../images/google-plus.png") no-repeat; background-position: 0px 0px; }
 footer .social_icon a.be { background: url("../images/footer-be.png") no-repeat; background-position: 0px 0px; }
 footer .social_icon a.in { background: url("../images/footer-in.png") no-repeat; background-position: 0px 0px; }
-
-
 
 
 
