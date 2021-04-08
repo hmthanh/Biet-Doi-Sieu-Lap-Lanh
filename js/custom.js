@@ -296,10 +296,10 @@ $(document).ready(function (e) {
 
 
     //about Timeliner
-    $().timelinr({
-        arrowKeys: 'true',
-        autoPlay: 'true',
-    });
+    // $().timelinr({
+    //     arrowKeys: 'true',
+    //     autoPlay: 'true',
+    // });
 
 
     $('#slidecaption').css('height', $(window).height());
@@ -337,9 +337,9 @@ $(document).ready(function (e) {
         thumb_links: 0,          // Individual thumb links for each slide
         thumbnail_navigation: 0,          // Thumbnail navigation
         slides: [           // Slideshow Images
-            { image: 'images/slider-img.png', title: '<a href="#"><img src="images/label.png" alt=" slider-img"></a>', thumb: '', url: '' },
+            { image: 'images/slider-img.png', title: '<a href="#"><img src="images/label.png" alt="slider-img"></a>', thumb: '', url: '' },
 
-            { image: 'images/slider-img2.png', title: '<a href="#"><img src="images/label-2.png" alt=" slider-img"></a>', thumb: '', url: '' }
+            { image: 'images/slider-img2.png', title: '<a href="#"><img src="images/label-2.png" alt="slider-img"></a>', thumb: '', url: '' }
 
         ],
 
