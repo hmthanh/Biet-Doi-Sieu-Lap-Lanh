@@ -307,7 +307,7 @@ $(document).ready(function (e) {
 
 
     //Google-map
-    $('#map_canvas').gmap();
+    // $('#map_canvas').gmap();
 
     $.supersized({
 
