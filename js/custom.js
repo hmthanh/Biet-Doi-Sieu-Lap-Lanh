@@ -297,20 +297,17 @@ $(document).ready(function (e) {
 
     //about Timeliner
     $().timelinr({
-        arrowKeys: 'true'
+        arrowKeys: 'true',
+        autoPlay: 'true',
     });
 
 
     $('#slidecaption').css('height', $(window).height());
 
-
-
-
     //Google-map
     // $('#map_canvas').gmap();
 
     $.supersized({
-
         // Functionality
         slideshow: 1,          // Slideshow on/off
         autoplay: 1,          // Slideshow starts playing automatically
